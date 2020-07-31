@@ -39,7 +39,6 @@ console.log('Cart value: $' + sum)
 
 // 3. Вывести с помощью цикла for числа от 0 до 9, не используя тело цикла. Выглядеть это должно так: //! for(…){// здесь пусто}
 let nArr = []
-
 for (let i = 0; i <= 9; nArr.push(i++)) {}
 console.log(nArr)
 
@@ -50,7 +49,6 @@ console.log(nArr)
    xxxx
    xxxxx */
 let pyr = ''
-
 for (let i = 0; i < 20; i++) {
    pyr = pyr + 'x'
    console.log(pyr)
